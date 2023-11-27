@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Cedarville+Cursive&family=Satisfy&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Cedarville+Cursive&family=Ephesis&family=Satisfy&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;500&family=Cedarville+Cursive&family=Ephesis&family=Satisfy&display=swap');
+*{
+    padding: 0;
+}
+body{
+    background-color: #ca6842;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   font-family: ('Caveat');
+   color:white;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+    
+}
+.parent {
+    width: 98vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: #B31312;
+    background-image: url(Design\ sem\ nome\ \(2\).png);
+    background-size: cover;
+    }
+    
+    
+    .img { 
+        /*border: 1px red solid;*/
+        grid-area: 2 / 7 / 7 / 10;
+        background-image: url(75\ Sem\ Título_20231126194641.png);
+        background-size: cover;
+        
+    }
+    .title {
+        color: #3D0C11;
+        font-size: 70px;
+         /*border: 1px red solid;*/
+        grid-area: 1 / 1 / 2 / 7;
+        font-family: 'Anton', sans-serif;
+        margin-left: 30px;
+        }
+    .part_1 {
+        /*border: 1px red solid;*/
+        grid-area: 2 / 7 / 7 / 4; 
+        font-family: 'Caveat', cursive;
+        
+        
+        }
+    .part_2{
+         /*border: 1px red solid;*/
+        grid-area: 2/ 4 / 7 / 7;
+        font-family: 'Caveat', cursive;
+         }
+    .part_1 > p{
+        font-size: 17px;
+        color: #3D0C11;
+        margin: 30px;
+         }
+    .part_2 > p{
+        font-size: 17px;
+        color: #3D0C11;
+        margin: 30px;
+         }
+         .part_1 {
+        /*border: 1px red solid;*/
+        grid-area: 2 / 1 / 7 / 4; 
+        font-family: 'Caveat', cursive;
+        
+        
+        }
+    .part_2{
+        /*border: 1px red solid;*/
+        grid-area: 2/ 4 / 7 / 7;
+        font-family: 'Caveat', cursive;
+         }
+    .part_1 > p{
+        font-size: 17px;
+        color: #3D0C11;
+        margin: 30px;
+         }
+    .part_2 > p{
+        font-size: 17px;
+        color: #3D0C11;
+        margin: 30px;
+         }
+
+
+         
